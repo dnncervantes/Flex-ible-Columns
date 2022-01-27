@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    color: white;
+    /* justify-content: space-between; */
+}
+.col, .col-2, .col-3 {
+    flex: 1;
+    background-color: #649DA0;
+    padding: 20px;
+    margin: 10px;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
